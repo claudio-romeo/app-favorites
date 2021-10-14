@@ -1,0 +1,15 @@
+.tete {
+ background-color: blue;
+}
+.jour {
+    background-color: blueviolet;
+}
+body {
+    background-color: brown;
+    border: 1px solid grey;
+}
+td {
+    padding: 20px;
+
+
+}
