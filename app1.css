@@ -1,15 +1,17 @@
-.tete {
- background-color: blue;
-}
-.jour {
-    background-color: blueviolet;
-}
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+
 body {
-    background-color: brown;
-    border: 1px solid grey;
+    font-family: 'andada pro', sans-serif;
+    padding: 0;
+    margin: 0;
+
 }
-td {
-    padding: 20px;
 
+ul {
+    margin: 0;
+    padding: 0;
 
+}
+li {
+    list-style-type: none;
 }
