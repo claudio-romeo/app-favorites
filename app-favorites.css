@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&display=swap');
 body {
     font-family: 'Andada pro', serif;
     padding: 0;
@@ -32,7 +31,7 @@ a{
 
 header nav {
     overflow: hidden;
-    background-color: rgba(169, 252, 255, 0.623);
+    background-color: rgba(70, 239, 245, 0.623);
     position: fixed;
     width: 100%;
     opacity: 0.9;
@@ -60,16 +59,16 @@ header li a {
     padding-top: 10px;
     background: url(OIP.jpg) no-repeat fixed 50% 50%;
     background-size:cover ;
-    height: 599px;
+    height: 799px;
 }
 h1{
     font-family: 'Andada pro', serif;
     text-align: center;
   
-    color: rgb(47, 173, 156);
+    color: rgb(24, 248, 218);
     font-size: 6em;
     margin-top: 100px;
-    text-shadow: 1px 3px 2px black;
+    text-shadow: 17px -24px 6px #B00DA3;
 
 }
 .Premiertrait {
@@ -77,12 +76,71 @@ h1{
     width: 25%;
     margin: -3px auto;
     background-color: darkmagenta;
+    box-shadow: 1px 3px 2px black;
 }
 h3 {
     text-align: center;
     color: darkorchid;
     font-size: 3em;
     font-family: 'Andada pro', serif;
-    text-shadow: 1px 3px 2px black;
+  text-shadow: 13px -15px 6px rgba(37,206,124,0.78);
 
+}
+
+
+/* *****************************Presentation*********************************** */
+
+#presentation{
+    background: url(applicationdev.jpg) border-box;
+    background-color: rgba(2, 20, 87, 0.952);
+    padding: 10px 0px 100px 0;
+    display: block;
+    justify-content: center;
+
+}
+
+.textintro {
+    padding:  0px 20%;
+}
+
+#prestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px 7%; 
+    
+}
+
+.imagesapply {
+    border-radius: 30px;
+    box-shadow: 13px -15px 6px rgba(0, 0, 0, 0.7);
+    height: 40px 40px;
+    cursor: pointer;
+
+}
+
+.imagesapply img:hover {
+    opacity: 0.5;
+    transform: : scale(2.05);
+    transition: all 0.8s ease-in-out;
+}
+#prestation img:hover {
+    opacity: 0.5;
+    transform: : scale(1.05);
+    transition: all 0.8s ease-in-out;
+    col
+}
+
+
+/* *************************************Textintro*************************************/
+
+.textintro {
+    font-family: 'Andada pro', serif;
+color: rgb(255, 253, 253);
+opacity: 100%;
+text-transform: uppercase;
+font-weight: bold;
+    text-shadow: black;
 }
