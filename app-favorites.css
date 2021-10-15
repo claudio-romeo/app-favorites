@@ -123,14 +123,13 @@ h3 {
 
 .imagesapply img:hover {
     opacity: 0.5;
-    transform: : scale(2.05);
+    transform: scale(2.05);
     transition: all 0.8s ease-in-out;
 }
 #prestation img:hover {
     opacity: 0.5;
-    transform: : scale(1.05);
-    transition: all 0.8s ease-in-out;
-    col
+    transform: scale(1.05);
+  
 }
 
 
