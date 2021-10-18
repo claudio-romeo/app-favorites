@@ -1,17 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&display=swap');
 body {
-    font-family: 'andada pro', sans-serif;
-    padding: 0;
-    margin: 0;
-
+    font-family: 'Andada pro', serif;
+margin: 0;
+padding: 0;
 }
 
 ul {
     margin: 0;
     padding: 0;
-
 }
+
 li {
     list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    background-color: royalblue;
+    font-family: 'Andada pro', serif;
+    margin: 10px 10px 10px;
+    text-align: center;
+    padding: 3% 30%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+element.style {
+    display: none;
+}
+/* *********************************************Picture***************************************** */
+
+.intro {
+margin: 20%;
+display: flex;
+flex-direction: column;
+size: 40px;
+}
+
+#box {
+  
+    position: relative;
+    box-sizing: content-box;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
+    background-color: salmon; 
+    background: image(u);
+}
+
+/* .imageinsta { */
+ 
+    /* border-radius: 50%;
+    border: royalblue solid 4px;
+    width: 50%;
+    margin: 9.5% 30%; */
+   
+
+/* } */
+/* **********************************************************************navbar******************************************* */
+
+header nav {
+    overflow: hidden;
+    background-color: rgba(131, 70, 245, 0.623);
+    position: relative;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: right;
+    align-items: flex-end;
+    font-size: 1.4em;
+    padding: 18px 16px;
+}
+.texthaut {
+    text-decoration: none;
+    display: center;
+    text-align: center;
+    padding: 18px 16px;
+
+    
+}
+#logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    float: left;
+}
+
+  
+
+
+img {
+    display:block;
+    align-items: center;
+
+}
+
+/* **********************************************************foooter*************************************************/
+
+footer {
+    position: absolute;
 }
