@@ -57,7 +57,7 @@ header li a {
 
 #imagePrincipale {
     padding-top: 10px;
-    background: url(OIP.jpg) no-repeat fixed 50% 50%;
+    background: url(ciel\ etoilé.jpg) no-repeat fixed 50% 50%;
     background-size:cover ;
     height: 799px;
 }
@@ -65,7 +65,7 @@ h1{
     font-family: 'Andada pro', serif;
     text-align: center;
   
-    color: rgb(24, 248, 218);
+    color: rgb(24, 140, 248);
     font-size: 6em;
     margin-top: 100px;
     text-shadow: 17px -24px 6px #B00DA3;
@@ -80,10 +80,10 @@ h1{
 }
 h3 {
     text-align: center;
-    color: darkorchid;
+    color: rgb(0, 231, 123);
     font-size: 3em;
     font-family: 'Andada pro', serif;
-  text-shadow: 13px -15px 6px rgba(37,206,124,0.78);
+  text-shadow: 13px -15px 6px rgba(77, 37, 206, 0.78);
 
 }
 
@@ -93,9 +93,11 @@ h3 {
 #presentation{
     background: url(applicationdev.jpg) border-box;
     background-color: rgba(2, 20, 87, 0.952);
+    background-size: cover;
     padding: 10px 0px 100px 0;
     display: block;
     justify-content: center;
+
 
 }
 
@@ -103,33 +105,48 @@ h3 {
     padding:  0px 20%;
 }
 
-#prestation {
+
+.imagesapply_facebook {
+    border-radius: 50px;
+    box-shadow: -10px 3px 70px 30px rgba(0, 0, 0, 0.7);
+
+    
+}
+.imagesapply_insta {
+    border-radius: 50px;
+    box-shadow: -13px -3px 10px 5px rgba(0, 0, 0, 0.3);
+
+
+} 
+.imagesapply_twitch {
+    border-radius: 50px;
+    box-shadow: 13px -3px 10px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+#imagesapply {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between ;
     align-items: center;
     flex-direction: row;
     padding: 40px 7%; 
-    
-}
-
-.imagesapply {
-    border-radius: 30px;
-    box-shadow: 13px -15px 6px rgba(0, 0, 0, 0.7);
-    height: 40px 40px;
+    border-radius:  30% ;
     cursor: pointer;
 
 }
 
-.imagesapply img:hover {
+#imagesapply img:hover {
     opacity: 0.5;
     transform: scale(2.05);
     transition: all 0.8s ease-in-out;
 }
+
 #prestation img:hover {
     opacity: 0.5;
     transform: scale(1.05);
   
+    transition: all 0.8s ease-in-out;
 }
 
 
@@ -137,9 +154,23 @@ h3 {
 
 .textintro {
     font-family: 'Andada pro', serif;
-color: rgb(255, 253, 253);
-opacity: 100%;
-text-transform: uppercase;
-font-weight: bold;
+    color: rgb(255, 253, 253);
+    opacity: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
     text-shadow: black;
+}
+
+/* *******************************************FOOTER********************* */
+#bas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  
+}
+footer {
+    color: rgb(19, 40, 80);
+    background-color: #00F6FF;
+    margin-top: -5%;
 }

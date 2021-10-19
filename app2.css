@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Scheherazade New', serif;
+    background-color: rgb(250, 239, 242);
+}
+h1 {
+    background-color: rgb(194, 132, 40);
+}
+nav {
+    background-color: blue;
+}
