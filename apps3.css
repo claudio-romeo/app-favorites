@@ -54,9 +54,9 @@ header li a {
 
 #imagePrincipale {
     padding-top: 10px;
-    background: url(https://wp-medias-solutions.lesechos.fr/2018/01/instagram-730x223.jpg) no-repeat fixed 50% 50%;
+    background: url(https://www.telechargerici.fr/wp-content/uploads/2020/06/facebook-lite-banner-1.png) no-repeat fixed 50% 50%;
     background-size:cover ;
-    height: 400px;
+    height: 500px;
 }
 h1{
     font-family: 'Andada pro', serif;
@@ -64,7 +64,7 @@ h1{
   
     color: rgb(24, 140, 248);
     font-size: 6em;
-    margin-top: 100px;
+    margin-top: 100%;
     text-shadow: 17px -24px 6px #B00DA3;
 }
 
@@ -88,7 +88,7 @@ h1{
 .circle {
     width: 100px;
     height: 100px;
-    background: url('insta.jpg');
+    background: url('facebook-icon.png');
     background-size: 100% 100%;
     border-radius: 50%;
     float: left;
